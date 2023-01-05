@@ -1,4 +1,4 @@
-package day38_Inheritance.WarmUp;
+package day38_Inheritance.warmUp;
 
 public class BMW extends Car{
     public BMW(String model, String color, long year, double price, double miles) {

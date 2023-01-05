@@ -1,4 +1,4 @@
-package day38_Inheritance.WarmUp;
+package day38_Inheritance.warmUp;
 
 public class Car {
     public String brand, model, color;

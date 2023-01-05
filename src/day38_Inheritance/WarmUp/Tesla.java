@@ -1,4 +1,4 @@
-package day38_Inheritance.WarmUp;
+package day38_Inheritance.warmUp;
 
 public class Tesla extends Car{
 
@@ -8,4 +8,5 @@ public class Tesla extends Car{
     public void autopilot(){
         System.out.println("This " + model + " can autopilot");
     }
+
 }
