@@ -1,8 +1,12 @@
 package day43_Abstraction;
 
+class Apple{
+    public Apple(int a) {
+        System.out.println("cybertek");
+    }
+}
 public class blblb {
-    public static int num1 = 100;
-    private static int num2 = 200;
-    protected static int num3 = 300;
-    static int num4  =400;
+    public static void main(String[] args) {
+        Apple obj = new Apple(9);
+    }
 }
