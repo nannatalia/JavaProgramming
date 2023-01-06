@@ -1,4 +1,5 @@
 package day45_Abstraction;
 
-public class PropertiesOfInterface {
+public interface PropertiesOfInterface {
+
 }
