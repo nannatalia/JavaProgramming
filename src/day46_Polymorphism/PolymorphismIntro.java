@@ -44,6 +44,26 @@ public class PolymorphismIntro {
 
         System.out.println("-------------------------------------------");
 
+        Employee employee = new Tester("Ali",30,'M',42,145000.00);
+        employee.work();
+        // employee.bugReport();
+
+        /*
+         WebDriver driver1 = new ChromeDriver();
+         WebDriver driver2 = new ChromeDriver();
+
+         driver1.get(amazon)
+         driver2.get(google)
+
+         Animal animal = new Dog();
+         animal.drink()
+         Animal animal = new Cat()
+         animal.drink()
+         Animal animal = new Tiger()
+         animal.drink()
+
+         */
+
     }
 
 }
