@@ -1,4 +1,4 @@
-package day44_Abstraction;
+package day44_Abstraction.Animal;
 
 public class Eagle extends Animal implements WildAnimal, Flyable{
     public Eagle(String name, String breed, String color, char gender, char size) {

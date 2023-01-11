@@ -1,8 +1,10 @@
 package day46_Polymorphism;
 
 import day43_Abstraction.employeeTask.*;
+import day44_Abstraction.Animal.*;
 import day45_Abstraction.Shape.Circle;
 import day45_Abstraction.Shape.Square;
+
 
 import java.util.ArrayList;
 
@@ -63,6 +65,13 @@ public class PolymorphismIntro {
          animal.drink()
 
          */
+
+        Animal animal = new Dog("Max", "Husky", "White", 'M', 'S');
+        animal.drink();
+        animal.eat();
+//      animal.play();
+//      animal.bark();
+
 
     }
 

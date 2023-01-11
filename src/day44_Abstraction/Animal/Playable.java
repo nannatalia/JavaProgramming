@@ -1,4 +1,4 @@
-package day44_Abstraction;
+package day44_Abstraction.Animal;
 
 public interface Playable {
     boolean isFriendly = true; // static & final by default

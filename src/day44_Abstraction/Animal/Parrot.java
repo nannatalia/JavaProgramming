@@ -1,4 +1,4 @@
-package day44_Abstraction;
+package day44_Abstraction.Animal;
 
 public class Parrot extends Animal implements Flyable, Playable{
     public Parrot(String name, String breed, String color, char gender, char size) {

@@ -1,4 +1,4 @@
-package day44_Abstraction;
+package day44_Abstraction.Animal;
 
 public class Cat extends Animal implements Playable{
     public Cat(String name, String breed, String color, char gender, char size) {

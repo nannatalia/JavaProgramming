@@ -1,4 +1,4 @@
-package day44_Abstraction;
+package day44_Abstraction.Animal;
 
 public class Tiger extends Animal implements WildAnimal{
     public Tiger(String name, String breed, String color, char gender, char size) {
