@@ -2,8 +2,7 @@ package day46_Polymorphism;
 
 import day43_Abstraction.employeeTask.*;
 import day44_Abstraction.Animal.*;
-import day45_Abstraction.Shape.Circle;
-import day45_Abstraction.Shape.Square;
+import day45_Abstraction.Shape.*;
 
 
 import java.util.ArrayList;
@@ -72,6 +71,40 @@ public class PolymorphismIntro {
 //      animal.play();
 //      animal.bark();
 
+        Playable animal2 = new Dog("Max", "Husky", "White", 'M', 'S');
+        System.out.println(animal2.isFriendly);
+        animal2.Play();
+        //animal2.drink();
+        //animal2.eat();
+
+        Animal animal3 = new Cat("Max", "Husky", "White", 'M', 'S');
+        Shape shape = new Circle(5);
+        shape.area();
+
+        //System.out.println( shape.getRadius());
+        //System.out.println( shape.PI);
+
+        boolean isSquare = shape instanceof Square;
+        boolean isRectangle = shape instanceof Rectangle;
+        boolean isTriangle = shape instanceof Triangle;
+        boolean isCircle = shape instanceof Circle;
+
+        System.out.println("isSquare = " + isSquare);
+        System.out.println("isTriangle = " + isTriangle);
+        System.out.println("isRectangle = " + isRectangle);
+        System.out.println("isCircle = " + isCircle);
+
+
+
+        /*
+        WebDriver driver:
+            if(driver instanceof Chrome){
+                Chrome browser will open
+            }else if(driver instanceof firefox){
+                Firefox browser will open
+            }
+            ...
+         */
 
     }
 
