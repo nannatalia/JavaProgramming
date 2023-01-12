@@ -6,7 +6,9 @@ import day45_Abstraction.Shape.*;
 public class ReferenceTypeCastings {
     public static void main(String[] args) {
 
-        Shape shape1 =(Shape) new Circle(5); //UPCASTING
-      //Shape shape = new Circle(3);
+       //Shape shape =(Shape) new Circle(5); //UPCASTING
+
+      Shape shape1 = new Circle(5);
+
     }
 }
