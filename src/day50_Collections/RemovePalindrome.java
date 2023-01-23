@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class RemovePalindrome {
     public static void main(String[] args) {
@@ -33,5 +34,33 @@ public class RemovePalindrome {
                 Arrays.asList("Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak", "reviver", "racecar", "madam")
         );
 
+        /*
+        Predicate<String> palindrome = str -> {
+
+            String reverse = "";
+
+            for ( int i = str.length()-1; i>=0; i--){
+                reverse+=str.charAt(i);
+            }
+            return reverse.equalsIgnoreCase(str);
+        };
+
+        names2.removeIf(palindrome);
+
+        System.out.println("names2 = " + names2);
+
+         */
+
+         /*
+        names2.removeIf(str -> { String reverse = "";
+            for(int i = str.length()-1; i >= 0; i--){
+                reverse += str.charAt(i);
+            }
+            return reverse.equalsIgnoreCase(str);}
+        );
+
+        System.out.println(names2);
+
+        */
     }
 }
