@@ -22,7 +22,7 @@ public class ListSetPractice {
 
         System.out.println("----------------------------------------");
 
-        //pop():
+        //pop(): ==> LIFO
 
         List<Character> chars = new Stack<>();
         chars.addAll(Arrays.asList('A','B','C','D'));
@@ -34,5 +34,21 @@ public class ListSetPractice {
         System.out.println("After popping: ");
 
         System.out.println("chars = " + chars);
+
+        System.out.println("----------------------------------------");
+        
+        //poll() ==> FIFO
+
+        List<String> names = new LinkedList<>();
+        names.addAll(Arrays.asList("James", "Jimmy", "Kathy", "Breanna", "Max"));
+
+        System.out.println("names = " + names);
+
+        ((LinkedList) names).poll();
+        System.out.println("After poll:");
+        System.out.println("names = " + names);
+
+        ((LinkedList) names).poll();
+        System.out.println("names = " + names);
     }
 }
